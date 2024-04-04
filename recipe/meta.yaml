@@ -1,5 +1,5 @@
 {% set name = "pipe" %}
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pipe-{{ version }}.tar.gz
-  sha256: e0ee44d7a17b4cbed2fd31839d59a3409638fc2d6daa6a714e1c062ef57956db
+  sha256: 6a253198e3bc542ffaf0a4222376586bce8583b27a9ddbc2cfbaa554c049230d
 
 build:
   number: 0
